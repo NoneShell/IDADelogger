@@ -56,9 +56,9 @@ This would rename the function to Foo.
 ---
 
 ## Compatibility
-	•	IDA Pro 7.5–8.3+
-	•   Python 3.x (IDA’s built-in)
-	•	Tested on macOS, 8.3
+•	IDA Pro 7.5–8.3+
+•   Python 3.x (IDA’s built-in)
+•	Tested on macOS, 8.3
 
 
 ## License

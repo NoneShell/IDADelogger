@@ -1,6 +1,6 @@
-# Log Analyzer for IDA Pro
+# IDADelogger for IDA Pro
 
-**Log Analyzer** is a GUI plugin for IDA Pro that automatically analyzes logging function calls and renames functions based on extracted log message parameters. It is particularly useful for firmware reverse engineering, embedded binary analysis, and malware unpacking — wherever log-based function naming is helpful.
+**IDADelogger** is a GUI plugin for IDA Pro that automatically analyzes logging function calls and renames functions based on extracted log message parameters. It is particularly useful for firmware reverse engineering, embedded binary analysis, and malware unpacking — wherever log-based function naming is helpful.
 
 ---
 
@@ -23,7 +23,7 @@
 
 1. Clone or download this repository:
 ```bash
-git clone https://github.com/NoneShell/IDADelog.git
+git clone https://github.com/NoneShell/IDADelogger.git
 ```
 
 2.	Copy the plugin file to your IDA plugin directory:
@@ -35,7 +35,7 @@ Edit → Log Analyzer
 
 ## How to Use
 1.	Open a binary in IDA and let it analyze.
-2.	Go to Edit → Log Analyzer from the menu.
+2.	Go to Edit → IDADelogger from the menu.
 3.	In the popup window:
     •	Enter your log function name (e.g., log_print)
     •	Set the argument index (0-based) from which the log string should be extracted
